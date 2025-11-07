@@ -1,4 +1,4 @@
-### 3. Conclusão (Baseada no Checklist)
+### Relatório
 
 **Qual modelo apresentou melhor equilíbrio e estabilidade?**
 
@@ -17,7 +17,7 @@ Em termos de **estabilidade**, embora todos os modelos tenham tido um desvio pad
 
 **Qual generalizou melhor?**
 
-Esta pergunta tem duas respostas, dependendo do critério:
+Depende do critério:
 
 1.  **Melhor Performance:** O **XGBoost** foi o que melhor generalizou para os dados de teste "limpos", alcançando o maior `AUC (0.9674)` e a maior `Acurácia (91%)`.
 2.  **Melhor Robustez:** O **Regressão Logística** foi o que melhor generalizou para um cenário com *dados ruidosos ou inesperados*. Ele foi o modelo mais robusto, pois sua performance caiu muito menos (queda de ~3.5% no AUC) em comparação com o Random Forest (~11.6%) e o XGBoost (~13.7%).
